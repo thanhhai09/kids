@@ -16,3 +16,8 @@ This repository is **separate** from the existing RootHide repo.
 - No server tokens, credentials, private database or binary drafts are included.
 - To publish real KidsChanger rootless packages, review original DEBs, Mach-O dependencies, entitlements, launch daemons and rootless injection; build and validate on test iPhone.
 - The diagnostic does not install a hook or alter Safari/Chrome information.
+
+
+## GitHub Pages after repository rename
+Public rootless test source: https://thanhhai09.github.io/kids/
+Deployment refresh after rename, 2026-10-08. Only diagnostic package is published; no KidsChanger rootless build is available yet.
