@@ -1,18 +1,18 @@
-# KidsAuto Dopamine Rootless Test
+# KidsAuto Dopamine Rootless — repository starter
 
-Repository thử nghiệm **Dopamine rootless** độc lập với bản Roothide trong `thanhhai09/kids-repo`.
+This repository is **separate** from the existing RootHide repo.
 
-## Source (sau khi bật GitHub Pages)
-https://thanhhai09.github.io/Kidstest/
+## Publish (owner action required)
 
-## Trạng thái
-- Chỉ triển khai gói chẩn đoán rootless trước.
-- **Chưa có** KidsChanger rootless đã được kiểm chứng.
-- Không cài gói Roothide trực tiếp lên Dopamine rootless.
-- Không đưa ZIP server, mật khẩu, token hoặc khóa riêng lên repo public.
+1. Create a **public** GitHub repository named `kids-rootless-repo` under `thanhhai09` (create it empty).
+2. Upload all files in this folder into its **main** branch, including `debs/`, `Packages`, `Packages.gz`, `Release`, `index.html`, `scripts/` and `.github/workflows/`.
+3. In GitHub repository Settings > Pages, select `Deploy from a branch` and choose `main` + `/ (root)`.
+4. Add `https://thanhhai09.github.io/kids-rootless-repo/` as a Sileo source. Pages publication can require a short propagation period.
+5. Install **KidsAuto Rootless Diagnostic** in Sileo, open NewTerm and run `kids-rootless-check`. Save the output to analyze compatibility.
 
-## Bật GitHub Pages
-Settings → Pages → Deploy from a branch → main → /(root) → Save.
+## Status
 
-## Kiểm tra
-Trong Sileo thêm source ở trên, cài KidsAuto Rootless Diagnostic (khi DEB đã được đăng), sau đó mở NewTerm và chạy `kids-rootless-check`.
+- Provided package **is a read-only diagnostic**, not a working KidsChanger release.
+- No server tokens, credentials, private database or binary drafts are included.
+- To publish real KidsChanger rootless packages, review original DEBs, Mach-O dependencies, entitlements, launch daemons and rootless injection; build and validate on test iPhone.
+- The diagnostic does not install a hook or alter Safari/Chrome information.

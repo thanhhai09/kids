@@ -1,0 +1,8 @@
+Origin: KidsAuto Rootless Test
+Label: KidsAuto Rootless Test
+Suite: stable
+Codename: rootless
+Version: 0.1
+Architectures: iphoneos-arm64
+Components: main
+Description: Experimental Dopamine rootless packages

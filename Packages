@@ -1,0 +1,14 @@
+Package: com.kidsauto.rootless.diagnostic
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: KidsAuto
+Filename: debs/com.kidsauto.rootless.diagnostic_0.1.0_iphoneos-arm64.deb
+Size: 1596
+MD5sum: 182071f10376c9ca69ac6ca1395db213
+SHA1: 3194da0d797f2afab61c793981521de0f8271828
+SHA256: 2b460723c1924cf3a3d8e5a0f22896224bdcc6989a6aa834b2f80faa4501a868
+Section: Utilities
+Priority: optional
+Description: Read-only diagnostic script for Dopamine rootless. Does not install KidsChanger, hook apps, bypass activation or modify daemon state.
+Name: KidsAuto Rootless Diagnostic
+
